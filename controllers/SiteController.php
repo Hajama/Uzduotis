@@ -119,9 +119,9 @@ class SiteController extends Controller
 	public function actionPardavimai()
     {
         $model = new PardavimuForma();
-		if ($model->load(Yii::$app->request->post())) {
+		if ($model->load(Yii::$app->request->post()) && $model->issaugotiPardavima()) {
             Yii::$app->session->setFlash('pardavimuFormosPatvirtinimas');
-			return $this->refresh();
+            return $this->refresh();
 		}
 		$kategorijos = Yii::$app->db->createCommand('SELECT * FROM kategorijos')
             ->queryAll();
@@ -138,6 +138,7 @@ class SiteController extends Controller
     }
 	
 	public function actionGautiprekes($id){
+		phpinfo();
 		$skaiciuotiPrekes = Preke::find()
                 ->where(['kategorija_id' => $id])
                 ->count();
@@ -155,28 +156,6 @@ class SiteController extends Controller
         else{
             echo "<option>-</option>";
         }
-		/* $preke = new Preke();
-		var_dump($preke);
-		$prekiuSkaicius = Yii::$app->db->createCommand('SELECT count(*) FROM preke WHERE 
-		kategorija_id=:kategorija_id')->bindValue('kategorija_id', $id)->queryScalar();
-		$preke = Yii::$app->db->createCommand('SELECT * FROM preke WHERE 
-		kategorija_id=:kategorija_id')->bindValue('kategorija_id', $id)->queryAll();
-		var_dump($preke);
-		$prekiuSarasas = ArrayHelper::map($preke,'id','pavadinimas');
-		var_dump($prekiuSarasas);
-		if($prekiuSkaicius > 0)
-		{
-			foreach($prekes as $preke) 
-			{
-				
-				var_dump($preke);
-				echo "<option value='".$preke->id."'>".$preke->pavadinimas."</option>";
-			}
-		}
-		else 
-		{
-			echo "<option>-</option>";
-		}    */
 	}
 
     /**

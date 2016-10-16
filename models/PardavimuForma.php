@@ -32,6 +32,25 @@ class PardavimuForma extends Model
 		];
 	}
 	
+	public function issaugotiPardavima()
+	{
+		if ($this->validate()) {
+			
+			Yii::$app->db->createCommand()->batchInsert('pardavimai', [
+					'kategorija', 'preke', 'pirkejoVardas', 'pirkejoPavarde',
+					'pirkejoTelefonoNumeris', 'pirkejoElPastas', 'kaina', 'arApmoketa',
+					'komentarai', 'pardavimoKodas'], [[$this->kategorija, $this->prekesPavadinimas,
+							$this->pirkejoVardas, $this->pirkejoPavarde, $this->pirkejoTelefonoNumeris,
+							$this->pirkejoElPastas, $this->kaina, $this->apmokejimoPozymis,
+							$this->komentaras, $this->pardavimoKodas
+					]])->execute();
+			return true;
+		} else {
+			$errors = $this->errors;
+		}
+		
+	}
+	
 	public function attributeLabels()
     {
         return [
