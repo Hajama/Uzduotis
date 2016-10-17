@@ -11,6 +11,8 @@ use app\models\LoginForm;
 use app\models\ContactForm;
 use app\models\PardavimuForma;
 use app\models\Preke;
+use yii\data\SqlDataProvider;
+
 
 class SiteController extends Controller
 {
@@ -156,6 +158,50 @@ class SiteController extends Controller
         else{
             echo "<option>-</option>";
         }
+	}
+	//Duomnis randa, neveikia GridView
+	public function actionPardavimusarasas()
+	{
+		$count = Yii::$app->db->createCommand('
+    		SELECT COUNT(id) FROM pardavimai')->queryScalar();
+		/*$dataProvider = new SqlDataProvider([
+				'sql' => 'SELECT pirkejoVardas, ' .
+				'kategorijos.pavadinimas, preke.pavadinimas AS prekesPavadinimas, ' . 
+				'pirkejoPavarde, pirkejoTelefonoNumeris, pirkejoElPastas, ' .
+				'kaina, arApmoketa, komentarai, pardavimoKodas '.
+				'FROM pardavimai '.
+				'INNER JOIN preke ON (preke = preke.id) ' .
+				'INNER JOIN kategorijos ON (preke.kategorija_id = kategorijos.id)',
+				'totalCount' => $count,
+				'pagination' => [
+						'pageSize' => 2,
+				],
+				
+				
+		]); */
+		//var_dump($dataProvider);
+		/*$dataProvider = Yii::$app->db->createCommand('SELECT pirkejoVardas, ' .
+				'kategorijos.pavadinimas, preke.pavadinimas AS prekesPavadinimas, ' . 
+				'pirkejoPavarde, pirkejoTelefonoNumeris, pirkejoElPastas, ' .
+				'kaina, arApmoketa, komentarai, pardavimoKodas '.
+				'FROM pardavimai '.
+				'INNER JOIN preke ON (preke = preke.id) ' .
+				'INNER JOIN kategorijos ON (preke.kategorija_id = kategorijos.id)')
+		->queryAll();
+		var_dump($dataProvider);*/
+		$dataProvider = new SqlDataProvider([
+			'sql' => 'SELECT pirkejoVardas, pirkejoPavarde FROM pardavimai',
+			'totalCount' => $count,
+			'pagination' => [
+					'pageSize' => 2,
+			],		
+		]);
+		/*$dataProvider = Yii::$app->db->createCommand('SELECT pirkejoVardas, pirkejoPavarde FROM pardavimai')
+		->queryAll();
+		var_dump($dataProvider);*/
+		return $this->render('pardavimusarasas', [
+				'dataProvider' => $dataProvider
+		]);
 	}
 
     /**

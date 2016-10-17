@@ -16,7 +16,7 @@ $this->params['breadcrumbs'][] = $this->title;
         </div>
 
         <p>
-            Kolkas formos duomenys nÄ—ra iÅ¡saugomi duomenu bazeje
+            Kolkas patvirtinimo iğ duomenu bazës dël duomenu iğssauogijimo nëra
         </p>
 
     <?php else: ?>

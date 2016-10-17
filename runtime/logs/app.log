@@ -19504,3 +19504,2015 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1476569300.532
     'REQUEST_TIME' => 1476569300
 ]
+2016-10-16 20:41:11 [-][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'Missing argument 5 for yii\db\Migration::addForeignKey(), called in C:\wamp64\www\Uzduotis\basic\migrations\m161016_203625_add_foreignkeyTo_pardavimai_table_prekesPavadinimas_column.php on line 9 and defined' in C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\db\Migration.php:410
+Stack trace:
+#0 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\db\Migration.php(410): yii\base\ErrorHandler->handleError(2, 'Missing argumen...', 'C:\\wamp64\\www\\U...', 410, Array)
+#1 C:\wamp64\www\Uzduotis\basic\migrations\m161016_203625_add_foreignkeyTo_pardavimai_table_prekesPavadinimas_column.php(9): yii\db\Migration->addForeignKey('fk-pardavimai-p...', 'pardavimai', 'preke', 'id')
+#2 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(509): m161016_203625_add_foreignkeyTo_pardavimai_table_prekesPavadinimas_column->up()
+#3 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(130): yii\console\controllers\BaseMigrateController->migrateUp('m161016_203625_...')
+#4 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#5 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#6 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#7 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\console\Controller.php(119): yii\base\Controller->runAction('', Array)
+#8 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('', Array)
+#9 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#10 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#11 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#12 C:\wamp64\www\Uzduotis\basic\yii(20): yii\base\Application->run()
+#13 {main}
+2016-10-16 20:41:06 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Arnoldas\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'ARNOLDAS-PC'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Arnoldas'
+    'LOCALAPPDATA' => 'C:\\Users\\Arnoldas\\AppData\\Local'
+    'LOGONSERVER' => '\\\\ARNOLDAS-PC'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Windows\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\wamp64\\bin\\php\\php5.6.25;C:\\ProgramData\\ComposerSetup\\bin;C:\\wamp64\\www\\Uzduotis\\basic;C:\\Users\\Arnoldas\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\wamp64\\www\\Uzduotis\\basic;C:\\wamp64\\bin\\php\\php5.6.25'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'C:\\wamp64\\bin\\php\\php5.6.25\\php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 42 Stepping 7, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '2a07'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\Arnoldas\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\Arnoldas\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'Arnoldas-PC'
+    'USERNAME' => 'Arnoldas'
+    'USERPROFILE' => 'C:\\Users\\Arnoldas'
+    'VS110COMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio 11.0\\Common7\\Tools\\'
+    'VS140COMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'C:\\wamp64\\www\\Uzduotis\\basic\\'
+    'PHP_SELF' => 'C:\\wamp64\\www\\Uzduotis\\basic\\yii'
+    'SCRIPT_NAME' => 'C:\\wamp64\\www\\Uzduotis\\basic\\yii'
+    'SCRIPT_FILENAME' => 'C:\\wamp64\\www\\Uzduotis\\basic\\yii'
+    'PATH_TRANSLATED' => 'C:\\wamp64\\www\\Uzduotis\\basic\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1476650466.8473
+    'REQUEST_TIME' => 1476650466
+    'argv' => [
+        0 => 'C:\\wamp64\\www\\Uzduotis\\basic\\yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2016-10-16 22:37:21 [::1][-][sse9ok8o7nmfk5htcpsdkg4v12][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/pardavimuSarasas' in C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('pardavimuSarasa...', Array)
+#1 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('site/pardavimuS...', Array)
+#2 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\wamp64\www\Uzduotis\basic\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\web\Application.php:99
+Stack trace:
+#0 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\wamp64\www\Uzduotis\basic\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-10-16 22:37:21 [::1][-][sse9ok8o7nmfk5htcpsdkg4v12][info][application] $_COOKIE = [
+    '_csrf' => 'b662ab1a3f2a6c20abce2a3abdf0890cf5cb5d9e9c35b944f0069510bb4752e4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12Ko6iSG1eUK6AXpF4K0yQbQYt5zqMER\";}'
+    'PHPSESSID' => 'sse9ok8o7nmfk5htcpsdkg4v12'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_ACCEPT' => 'application/x-ms-application, image/jpeg, application/xaml+xml, image/gif, image/pjpeg, application/x-ms-xbap, */*'
+    'HTTP_REFERER' => 'http://localhost/site/pardavimai'
+    'HTTP_ACCEPT_LANGUAGE' => 'lt-LT'
+    'HTTP_UA_CPU' => 'AMD64'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; Trident/7.0; rv:11.0) like Gecko'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'HTTP_COOKIE' => '_csrf=b662ab1a3f2a6c20abce2a3abdf0890cf5cb5d9e9c35b944f0069510bb4752e4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212Ko6iSG1eUK6AXpF4K0yQbQYt5zqMER%22%3B%7D; PHPSESSID=sse9ok8o7nmfk5htcpsdkg4v12'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Windows\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\wamp64\\bin\\php\\php5.6.25;C:\\ProgramData\\ComposerSetup\\bin;C:\\wamp64\\www\\Uzduotis\\basic;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp64/www/Uzduotis/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp64/www/Uzduotis/basic/web/'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/wamp64/www/Uzduotis/basic/web/index.php'
+    'REMOTE_PORT' => '16863'
+    'REDIRECT_URL' => '/site/pardavimuSarasas'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/pardavimuSarasas'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1476657441.279
+    'REQUEST_TIME' => 1476657441
+]
+2016-10-16 22:40:03 [::1][-][sse9ok8o7nmfk5htcpsdkg4v12][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/pardavimuSarasas' in C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('pardavimuSarasa...', Array)
+#1 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('site/pardavimuS...', Array)
+#2 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\wamp64\www\Uzduotis\basic\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\web\Application.php:99
+Stack trace:
+#0 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\wamp64\www\Uzduotis\basic\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-10-16 22:40:03 [::1][-][sse9ok8o7nmfk5htcpsdkg4v12][info][application] $_COOKIE = [
+    '_csrf' => 'b662ab1a3f2a6c20abce2a3abdf0890cf5cb5d9e9c35b944f0069510bb4752e4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12Ko6iSG1eUK6AXpF4K0yQbQYt5zqMER\";}'
+    'PHPSESSID' => 'sse9ok8o7nmfk5htcpsdkg4v12'
+    'XDEBUG_SESSION' => 'ECLIPSE_DBGP'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_ACCEPT' => 'application/x-ms-application, image/jpeg, application/xaml+xml, image/gif, image/pjpeg, application/x-ms-xbap, */*'
+    'HTTP_REFERER' => 'http://localhost/index.php?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=14766575994474'
+    'HTTP_ACCEPT_LANGUAGE' => 'lt-LT'
+    'HTTP_UA_CPU' => 'AMD64'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; Trident/7.0; rv:11.0) like Gecko'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'HTTP_COOKIE' => '_csrf=b662ab1a3f2a6c20abce2a3abdf0890cf5cb5d9e9c35b944f0069510bb4752e4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212Ko6iSG1eUK6AXpF4K0yQbQYt5zqMER%22%3B%7D; PHPSESSID=sse9ok8o7nmfk5htcpsdkg4v12; XDEBUG_SESSION=ECLIPSE_DBGP'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Windows\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\wamp64\\bin\\php\\php5.6.25;C:\\ProgramData\\ComposerSetup\\bin;C:\\wamp64\\www\\Uzduotis\\basic;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp64/www/Uzduotis/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp64/www/Uzduotis/basic/web/'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/wamp64/www/Uzduotis/basic/web/index.php'
+    'REMOTE_PORT' => '16896'
+    'REDIRECT_URL' => '/site/pardavimuSarasas'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/pardavimuSarasas'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1476657603.496
+    'REQUEST_TIME' => 1476657603
+]
+2016-10-16 22:40:15 [::1][-][sse9ok8o7nmfk5htcpsdkg4v12][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/pardavimuSarasas' in C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('pardavimuSarasa...', Array)
+#1 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('site/pardavimuS...', Array)
+#2 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\wamp64\www\Uzduotis\basic\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\web\Application.php:99
+Stack trace:
+#0 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\wamp64\www\Uzduotis\basic\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-10-16 22:40:15 [::1][-][sse9ok8o7nmfk5htcpsdkg4v12][info][application] $_COOKIE = [
+    '_csrf' => 'b662ab1a3f2a6c20abce2a3abdf0890cf5cb5d9e9c35b944f0069510bb4752e4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12Ko6iSG1eUK6AXpF4K0yQbQYt5zqMER\";}'
+    'PHPSESSID' => 'sse9ok8o7nmfk5htcpsdkg4v12'
+    'XDEBUG_SESSION' => 'ECLIPSE_DBGP'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_ACCEPT' => 'application/x-ms-application, image/jpeg, application/xaml+xml, image/gif, image/pjpeg, application/x-ms-xbap, */*'
+    'HTTP_REFERER' => 'http://localhost/site/pardavimai'
+    'HTTP_ACCEPT_LANGUAGE' => 'lt-LT'
+    'HTTP_UA_CPU' => 'AMD64'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; Trident/7.0; rv:11.0) like Gecko'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'HTTP_COOKIE' => '_csrf=b662ab1a3f2a6c20abce2a3abdf0890cf5cb5d9e9c35b944f0069510bb4752e4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212Ko6iSG1eUK6AXpF4K0yQbQYt5zqMER%22%3B%7D; PHPSESSID=sse9ok8o7nmfk5htcpsdkg4v12; XDEBUG_SESSION=ECLIPSE_DBGP'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Windows\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\wamp64\\bin\\php\\php5.6.25;C:\\ProgramData\\ComposerSetup\\bin;C:\\wamp64\\www\\Uzduotis\\basic;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp64/www/Uzduotis/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp64/www/Uzduotis/basic/web/'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/wamp64/www/Uzduotis/basic/web/index.php'
+    'REMOTE_PORT' => '16904'
+    'REDIRECT_URL' => '/site/pardavimuSarasas'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/pardavimuSarasas'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1476657615.087
+    'REQUEST_TIME' => 1476657615
+]
+2016-10-16 22:44:11 [::1][-][sse9ok8o7nmfk5htcpsdkg4v12][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/pardavimuSarasas' in C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('pardavimuSarasa...', Array)
+#1 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('site/pardavimuS...', Array)
+#2 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\wamp64\www\Uzduotis\basic\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\web\Application.php:99
+Stack trace:
+#0 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\wamp64\www\Uzduotis\basic\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-10-16 22:44:09 [::1][-][sse9ok8o7nmfk5htcpsdkg4v12][info][application] $_COOKIE = [
+    '_csrf' => 'b662ab1a3f2a6c20abce2a3abdf0890cf5cb5d9e9c35b944f0069510bb4752e4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12Ko6iSG1eUK6AXpF4K0yQbQYt5zqMER\";}'
+    'PHPSESSID' => 'sse9ok8o7nmfk5htcpsdkg4v12'
+    'XDEBUG_SESSION' => 'ECLIPSE_DBGP'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_ACCEPT' => 'application/x-ms-application, image/jpeg, application/xaml+xml, image/gif, image/pjpeg, application/x-ms-xbap, */*'
+    'HTTP_REFERER' => 'http://localhost/site/pardavimuSarasas'
+    'HTTP_ACCEPT_LANGUAGE' => 'lt-LT'
+    'HTTP_UA_CPU' => 'AMD64'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; Trident/7.0; rv:11.0) like Gecko'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'HTTP_COOKIE' => '_csrf=b662ab1a3f2a6c20abce2a3abdf0890cf5cb5d9e9c35b944f0069510bb4752e4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212Ko6iSG1eUK6AXpF4K0yQbQYt5zqMER%22%3B%7D; PHPSESSID=sse9ok8o7nmfk5htcpsdkg4v12; XDEBUG_SESSION=ECLIPSE_DBGP'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Windows\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\wamp64\\bin\\php\\php5.6.25;C:\\ProgramData\\ComposerSetup\\bin;C:\\wamp64\\www\\Uzduotis\\basic;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp64/www/Uzduotis/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp64/www/Uzduotis/basic/web/'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/wamp64/www/Uzduotis/basic/web/index.php'
+    'REMOTE_PORT' => '17284'
+    'REDIRECT_URL' => '/site/pardavimuSarasas'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/pardavimuSarasas'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1476657848.977
+    'REQUEST_TIME' => 1476657848
+]
+2016-10-16 22:50:22 [::1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'GridView' not found' in C:\wamp64\www\Uzduotis\basic\views\site\pardavimusarasas.php:2
+Stack trace:
+#0 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('???', '???')
+#1 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('???', '???', '???')
+#2 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('???', '???', '???')
+#3 C:\wamp64\www\Uzduotis\basic\controllers\SiteController.php(181): yii\base\Controller->render('???', '???')
+#4 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\InlineAction.php(55): app\controllers\SiteController->actionPardavimusarasas()
+#5 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\InlineAction.php:55}('???', '???')
+#6 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('???')
+#7 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('???', '???')
+#8 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('???', '???')
+#9 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest('???')
+#10 C:\wamp64\www\Uzduotis\basic\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2016-10-16 22:50:17 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'b662ab1a3f2a6c20abce2a3abdf0890cf5cb5d9e9c35b944f0069510bb4752e4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12Ko6iSG1eUK6AXpF4K0yQbQYt5zqMER\";}'
+    'PHPSESSID' => 'sse9ok8o7nmfk5htcpsdkg4v12'
+    'XDEBUG_SESSION' => 'ECLIPSE_DBGP'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_ACCEPT' => 'application/x-ms-application, image/jpeg, application/xaml+xml, image/gif, image/pjpeg, application/x-ms-xbap, */*'
+    'HTTP_REFERER' => 'http://localhost/index.php?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=14766582162786'
+    'HTTP_ACCEPT_LANGUAGE' => 'lt-LT'
+    'HTTP_UA_CPU' => 'AMD64'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; Trident/7.0; rv:11.0) like Gecko'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'HTTP_COOKIE' => '_csrf=b662ab1a3f2a6c20abce2a3abdf0890cf5cb5d9e9c35b944f0069510bb4752e4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212Ko6iSG1eUK6AXpF4K0yQbQYt5zqMER%22%3B%7D; PHPSESSID=sse9ok8o7nmfk5htcpsdkg4v12; XDEBUG_SESSION=ECLIPSE_DBGP'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Windows\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\wamp64\\bin\\php\\php5.6.25;C:\\ProgramData\\ComposerSetup\\bin;C:\\wamp64\\www\\Uzduotis\\basic;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp64/www/Uzduotis/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp64/www/Uzduotis/basic/web/'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/wamp64/www/Uzduotis/basic/web/index.php'
+    'REMOTE_PORT' => '17455'
+    'REDIRECT_URL' => '/site/pardavimusarasas'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/pardavimusarasas'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1476658217.981
+    'REQUEST_TIME' => 1476658217
+]
+2016-10-16 22:54:22 [::1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'GridView' not found' in C:\wamp64\www\Uzduotis\basic\views\site\pardavimusarasas.php:1
+Stack trace:
+#0 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('???', '???')
+#1 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('???', '???', '???')
+#2 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('???', '???', '???')
+#3 C:\wamp64\www\Uzduotis\basic\controllers\SiteController.php(182): yii\base\Controller->render('???', '???')
+#4 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\InlineAction.php(55): app\controllers\SiteController->actionPardavimusarasas()
+#5 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\InlineAction.php:55}('???', '???')
+#6 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('???')
+#7 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('???', '???')
+#8 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('???', '???')
+#9 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest('???')
+#10 C:\wamp64\www\Uzduotis\basic\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2016-10-16 22:54:17 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'b662ab1a3f2a6c20abce2a3abdf0890cf5cb5d9e9c35b944f0069510bb4752e4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12Ko6iSG1eUK6AXpF4K0yQbQYt5zqMER\";}'
+    'PHPSESSID' => 'sse9ok8o7nmfk5htcpsdkg4v12'
+    'XDEBUG_SESSION' => 'ECLIPSE_DBGP'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_ACCEPT' => 'application/x-ms-application, image/jpeg, application/xaml+xml, image/gif, image/pjpeg, application/x-ms-xbap, */*'
+    'HTTP_REFERER' => 'http://localhost/index.php?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=14766584539687'
+    'HTTP_ACCEPT_LANGUAGE' => 'lt-LT'
+    'HTTP_UA_CPU' => 'AMD64'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; Trident/7.0; rv:11.0) like Gecko'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'HTTP_COOKIE' => '_csrf=b662ab1a3f2a6c20abce2a3abdf0890cf5cb5d9e9c35b944f0069510bb4752e4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212Ko6iSG1eUK6AXpF4K0yQbQYt5zqMER%22%3B%7D; PHPSESSID=sse9ok8o7nmfk5htcpsdkg4v12; XDEBUG_SESSION=ECLIPSE_DBGP'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Windows\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\wamp64\\bin\\php\\php5.6.25;C:\\ProgramData\\ComposerSetup\\bin;C:\\wamp64\\www\\Uzduotis\\basic;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp64/www/Uzduotis/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp64/www/Uzduotis/basic/web/'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/wamp64/www/Uzduotis/basic/web/index.php'
+    'REMOTE_PORT' => '17496'
+    'REDIRECT_URL' => '/site/pardavimusarasas'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/pardavimusarasas'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1476658457.268
+    'REQUEST_TIME' => 1476658457
+]
+2016-10-16 22:56:33 [::1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Object of class yii\db\Command could not be converted to int' in C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\data\Pagination.php:155
+Stack trace:
+#0 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\data\Pagination.php(172): yii\data\Pagination->setPage('???', '???')
+#1 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\data\Pagination.php(295): yii\data\Pagination->getPage('???')
+#2 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\data\SqlDataProvider.php(129): yii\data\Pagination->getOffset()
+#3 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\data\BaseDataProvider.php(79): yii\data\SqlDataProvider->prepareModels()
+#4 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\data\BaseDataProvider.php(92): yii\data\BaseDataProvider->prepare('???')
+#5 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\grid\GridView.php(568): yii\data\BaseDataProvider->getModels()
+#6 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\grid\GridView.php(522): yii\grid\GridView->guessColumns()
+#7 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\grid\GridView.php(275): yii\grid\GridView->initColumns()
+#8 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Object.php(107): yii\grid\GridView->init()
+#9 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\di\Container.php(379): yii\base\Object->__construct('???')
+#10 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\di\Container.php(379): ReflectionClass->newInstanceArgs('???')
+#11 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\di\Container.php(154): yii\di\Container->build('???', '???', '???')
+#12 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('???', '???', '???')
+#13 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Widget.php(101): yii\BaseYii::createObject('???', '???')
+#14 C:\wamp64\www\Uzduotis\basic\views\site\pardavimusarasas.php(7): yii\base\Widget::widget('???')
+#15 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\View.php(325): ::unknown()
+#16 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('???', '???')
+#17 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('???', '???', '???')
+#18 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('???', '???', '???')
+#19 C:\wamp64\www\Uzduotis\basic\controllers\SiteController.php(182): yii\base\Controller->render('???', '???')
+#20 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\InlineAction.php(55): app\controllers\SiteController->actionPardavimusarasas()
+#21 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\InlineAction.php:55}('???', '???')
+#22 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('???')
+#23 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('???', '???')
+#24 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('???', '???')
+#25 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest('???')
+#26 C:\wamp64\www\Uzduotis\basic\web\index.php(12): yii\base\Application->run()
+#27 {main}
+2016-10-16 22:56:28 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'b662ab1a3f2a6c20abce2a3abdf0890cf5cb5d9e9c35b944f0069510bb4752e4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12Ko6iSG1eUK6AXpF4K0yQbQYt5zqMER\";}'
+    'PHPSESSID' => 'sse9ok8o7nmfk5htcpsdkg4v12'
+    'XDEBUG_SESSION' => 'ECLIPSE_DBGP'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_ACCEPT' => 'application/x-ms-application, image/jpeg, application/xaml+xml, image/gif, image/pjpeg, application/x-ms-xbap, */*'
+    'HTTP_REFERER' => 'http://localhost/index.php?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=14766585867128'
+    'HTTP_ACCEPT_LANGUAGE' => 'lt-LT'
+    'HTTP_UA_CPU' => 'AMD64'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; Trident/7.0; rv:11.0) like Gecko'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'HTTP_COOKIE' => '_csrf=b662ab1a3f2a6c20abce2a3abdf0890cf5cb5d9e9c35b944f0069510bb4752e4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212Ko6iSG1eUK6AXpF4K0yQbQYt5zqMER%22%3B%7D; PHPSESSID=sse9ok8o7nmfk5htcpsdkg4v12; XDEBUG_SESSION=ECLIPSE_DBGP'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Windows\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\wamp64\\bin\\php\\php5.6.25;C:\\ProgramData\\ComposerSetup\\bin;C:\\wamp64\\www\\Uzduotis\\basic;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp64/www/Uzduotis/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp64/www/Uzduotis/basic/web/'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/wamp64/www/Uzduotis/basic/web/index.php'
+    'REMOTE_PORT' => '17531'
+    'REDIRECT_URL' => '/site/pardavimusarasas'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/pardavimusarasas'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1476658588.729
+    'REQUEST_TIME' => 1476658588
+]
+2016-10-16 23:04:52 [::1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'kategorija.id' in 'on clause'' in C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\db\Command.php:900
+Stack trace:
+#0 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\db\Command.php(900): PDOStatement->execute()
+#1 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\data\SqlDataProvider.php(134): yii\db\Command->queryAll()
+#3 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\data\BaseDataProvider.php(79): yii\data\SqlDataProvider->prepareModels()
+#4 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\data\BaseDataProvider.php(92): yii\data\BaseDataProvider->prepare()
+#5 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\grid\GridView.php(568): yii\data\BaseDataProvider->getModels()
+#6 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\grid\GridView.php(522): yii\grid\GridView->guessColumns()
+#7 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\grid\GridView.php(275): yii\grid\GridView->initColumns()
+#8 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Object.php(107): yii\grid\GridView->init()
+#9 [internal function]: yii\base\Object->__construct('[<span class="s...')
+#10 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\di\Container.php(379): ReflectionClass->newInstanceArgs('[[<span class="...')
+#11 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\di\Container.php(154): yii\di\Container->build('<span class="st...', '[]', '[<span class="s...')
+#12 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('<span class="st...', '[]', '[<span class="s...')
+#13 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Widget.php(101): yii\BaseYii::createObject('[<span class="s...')
+#14 C:\wamp64\www\Uzduotis\basic\views\site\pardavimusarasas.php(7): yii\base\Widget::widget('[<span class="s...')
+#15 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\View.php(325): require('C:\\wamp64\\www\\U...')
+#16 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#17 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('<span class="st...', '[<span class="s...', Object(app\controllers\SiteController))
+#18 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('<span class="st...', '[<span class="s...', Object(app\controllers\SiteController))
+#19 C:\wamp64\www\Uzduotis\basic\controllers\SiteController.php(182): yii\base\Controller->render('<span class="st...', '[<span class="s...')
+#20 [internal function]: app\controllers\SiteController->actionPardavimusarasas()
+#21 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#22 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[]')
+#23 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[]')
+#24 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('<span class="st...', '[]')
+#25 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#26 C:\wamp64\www\Uzduotis\basic\web\index.php(12): yii\base\Application->run()
+#27 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'kategorija.id' in 'on clause'
+The SQL being executed was: SELECT pirkejoVardas, kategorijos.pavadinimas, preke.pavadinimas, pirkejoPavarde, pirkejoTelefonoNumeris, pirkejoElPastas, kaina, arApmoketa, komentarai, pardavimoKodas FROM pardavimai INNER JOIN preke ON (preke = preke.id) INNER JOIN kategorijos ON (kategorija = kategorija.id) LIMIT 1' in C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\db\Schema.php:633
+Stack trace:
+#0 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\db\Command.php(915): yii\db\Schema->convertException(Object(PDOException), 'SELECT pirkejoV...')
+#1 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\data\SqlDataProvider.php(134): yii\db\Command->queryAll()
+#3 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\data\BaseDataProvider.php(79): yii\data\SqlDataProvider->prepareModels()
+#4 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\data\BaseDataProvider.php(92): yii\data\BaseDataProvider->prepare()
+#5 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\grid\GridView.php(568): yii\data\BaseDataProvider->getModels()
+#6 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\grid\GridView.php(522): yii\grid\GridView->guessColumns()
+#7 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\grid\GridView.php(275): yii\grid\GridView->initColumns()
+#8 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Object.php(107): yii\grid\GridView->init()
+#9 [internal function]: yii\base\Object->__construct('[<span class="s...')
+#10 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\di\Container.php(379): ReflectionClass->newInstanceArgs('[[<span class="...')
+#11 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\di\Container.php(154): yii\di\Container->build('<span class="st...', '[]', '[<span class="s...')
+#12 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('<span class="st...', '[]', '[<span class="s...')
+#13 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Widget.php(101): yii\BaseYii::createObject('[<span class="s...')
+#14 C:\wamp64\www\Uzduotis\basic\views\site\pardavimusarasas.php(7): yii\base\Widget::widget('[<span class="s...')
+#15 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\View.php(325): require('C:\\wamp64\\www\\U...')
+#16 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#17 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('<span class="st...', '[<span class="s...', Object(app\controllers\SiteController))
+#18 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('<span class="st...', '[<span class="s...', Object(app\controllers\SiteController))
+#19 C:\wamp64\www\Uzduotis\basic\controllers\SiteController.php(182): yii\base\Controller->render('<span class="st...', '[<span class="s...')
+#20 [internal function]: app\controllers\SiteController->actionPardavimusarasas()
+#21 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#22 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[]')
+#23 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[]')
+#24 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('<span class="st...', '[]')
+#25 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#26 C:\wamp64\www\Uzduotis\basic\web\index.php(12): yii\base\Application->run()
+#27 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'kategorija.id' in 'on clause'
+)
+
+2016-10-16 23:03:20 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'b662ab1a3f2a6c20abce2a3abdf0890cf5cb5d9e9c35b944f0069510bb4752e4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12Ko6iSG1eUK6AXpF4K0yQbQYt5zqMER\";}'
+    'PHPSESSID' => 'sse9ok8o7nmfk5htcpsdkg4v12'
+    'XDEBUG_SESSION' => 'ECLIPSE_DBGP'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_ACCEPT' => 'application/x-ms-application, image/jpeg, application/xaml+xml, image/gif, image/pjpeg, application/x-ms-xbap, */*'
+    'HTTP_REFERER' => 'http://localhost/index.php?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=147665899567612'
+    'HTTP_ACCEPT_LANGUAGE' => 'lt-LT'
+    'HTTP_UA_CPU' => 'AMD64'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; Trident/7.0; rv:11.0) like Gecko'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'HTTP_COOKIE' => '_csrf=b662ab1a3f2a6c20abce2a3abdf0890cf5cb5d9e9c35b944f0069510bb4752e4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212Ko6iSG1eUK6AXpF4K0yQbQYt5zqMER%22%3B%7D; PHPSESSID=sse9ok8o7nmfk5htcpsdkg4v12; XDEBUG_SESSION=ECLIPSE_DBGP'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Windows\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\wamp64\\bin\\php\\php5.6.25;C:\\ProgramData\\ComposerSetup\\bin;C:\\wamp64\\www\\Uzduotis\\basic;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp64/www/Uzduotis/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp64/www/Uzduotis/basic/web/'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/wamp64/www/Uzduotis/basic/web/index.php'
+    'REMOTE_PORT' => '17623'
+    'REDIRECT_URL' => '/site/pardavimusarasas'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/pardavimusarasas'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1476659000.04
+    'REQUEST_TIME' => 1476659000
+]
+2016-10-16 23:59:00 [::1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getCount() on array' in C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\widgets\BaseListView.php:178
+Stack trace:
+#0 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\grid\GridView.php(313): yii\widgets\BaseListView->renderSection('???')
+#1 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\widgets\BaseListView.php(126): yii\grid\GridView->renderSection('???')
+#2 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\widgets\BaseListView.php(129): yii\widgets\BaseListView->yii\widgets\{closure}('???')
+#3 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\widgets\BaseListView.php(129): ::preg_replace_callback('???', '???', '???')
+#4 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\grid\GridView.php(288): yii\widgets\BaseListView->run()
+#5 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Widget.php(102): yii\grid\GridView->run()
+#6 C:\wamp64\www\Uzduotis\basic\views\site\pardavimusarasas.php(11): yii\base\Widget::widget('???')
+#7 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\View.php(325): ::unknown()
+#8 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('???', '???')
+#9 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('???', '???', '???')
+#10 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('???', '???', '???')
+#11 C:\wamp64\www\Uzduotis\basic\controllers\SiteController.php(195): yii\base\Controller->render('???', '???')
+#12 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\InlineAction.php(55): app\controllers\SiteController->actionPardavimusarasas()
+#13 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\InlineAction.php:55}('???', '???')
+#14 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('???')
+#15 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('???', '???')
+#16 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('???', '???')
+#17 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest('???')
+#18 C:\wamp64\www\Uzduotis\basic\web\index.php(12): yii\base\Application->run()
+#19 {main}
+2016-10-16 23:58:26 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'b662ab1a3f2a6c20abce2a3abdf0890cf5cb5d9e9c35b944f0069510bb4752e4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12Ko6iSG1eUK6AXpF4K0yQbQYt5zqMER\";}'
+    'PHPSESSID' => 'sse9ok8o7nmfk5htcpsdkg4v12'
+    'XDEBUG_SESSION' => 'ECLIPSE_DBGP'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_ACCEPT' => 'application/x-ms-application, image/jpeg, application/xaml+xml, image/gif, image/pjpeg, application/x-ms-xbap, */*'
+    'HTTP_REFERER' => 'http://localhost/site/pardavimai'
+    'HTTP_ACCEPT_LANGUAGE' => 'lt-LT'
+    'HTTP_UA_CPU' => 'AMD64'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; Trident/7.0; rv:11.0) like Gecko'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'HTTP_COOKIE' => '_csrf=b662ab1a3f2a6c20abce2a3abdf0890cf5cb5d9e9c35b944f0069510bb4752e4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212Ko6iSG1eUK6AXpF4K0yQbQYt5zqMER%22%3B%7D; PHPSESSID=sse9ok8o7nmfk5htcpsdkg4v12; XDEBUG_SESSION=ECLIPSE_DBGP'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Windows\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\wamp64\\bin\\php\\php5.6.25;C:\\ProgramData\\ComposerSetup\\bin;C:\\wamp64\\www\\Uzduotis\\basic;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp64/www/Uzduotis/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp64/www/Uzduotis/basic/web/'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/wamp64/www/Uzduotis/basic/web/index.php'
+    'REMOTE_PORT' => '18457'
+    'REDIRECT_URL' => '/site/pardavimusarasas'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/pardavimusarasas'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1476662306.803
+    'REQUEST_TIME' => 1476662306
+]
+2016-10-17 00:00:14 [::1][-][sse9ok8o7nmfk5htcpsdkg4v12][error][yii\base\ErrorException:128] exception 'yii\base\ErrorException' with message 'Unterminated comment starting line 5' in C:\wamp64\www\Uzduotis\basic\views\site\pardavimusarasas.php:5
+Stack trace:
+#0 {main}
+2016-10-16 23:59:35 [::1][-][sse9ok8o7nmfk5htcpsdkg4v12][info][application] $_COOKIE = [
+    '_csrf' => 'b662ab1a3f2a6c20abce2a3abdf0890cf5cb5d9e9c35b944f0069510bb4752e4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12Ko6iSG1eUK6AXpF4K0yQbQYt5zqMER\";}'
+    'PHPSESSID' => 'sse9ok8o7nmfk5htcpsdkg4v12'
+    'XDEBUG_SESSION' => 'ECLIPSE_DBGP'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_ACCEPT' => 'application/x-ms-application, image/jpeg, application/xaml+xml, image/gif, image/pjpeg, application/x-ms-xbap, */*'
+    'HTTP_REFERER' => 'http://localhost/site/pardavimai'
+    'HTTP_ACCEPT_LANGUAGE' => 'lt-LT'
+    'HTTP_UA_CPU' => 'AMD64'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; Trident/7.0; rv:11.0) like Gecko'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'HTTP_COOKIE' => '_csrf=b662ab1a3f2a6c20abce2a3abdf0890cf5cb5d9e9c35b944f0069510bb4752e4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212Ko6iSG1eUK6AXpF4K0yQbQYt5zqMER%22%3B%7D; PHPSESSID=sse9ok8o7nmfk5htcpsdkg4v12; XDEBUG_SESSION=ECLIPSE_DBGP'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Windows\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\wamp64\\bin\\php\\php5.6.25;C:\\ProgramData\\ComposerSetup\\bin;C:\\wamp64\\www\\Uzduotis\\basic;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp64/www/Uzduotis/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp64/www/Uzduotis/basic/web/'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/wamp64/www/Uzduotis/basic/web/index.php'
+    'REMOTE_PORT' => '18464'
+    'REDIRECT_URL' => '/site/pardavimusarasas'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/pardavimusarasas'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1476662375.22
+    'REQUEST_TIME' => 1476662375
+]
+2016-10-17 00:00:38 [::1][-][sse9ok8o7nmfk5htcpsdkg4v12][error][yii\base\ErrorException:128] exception 'yii\base\ErrorException' with message 'Unterminated comment starting line 5' in C:\wamp64\www\Uzduotis\basic\views\site\pardavimusarasas.php:5
+Stack trace:
+#0 {main}
+2016-10-17 00:00:29 [::1][-][sse9ok8o7nmfk5htcpsdkg4v12][info][application] $_COOKIE = [
+    '_csrf' => 'b662ab1a3f2a6c20abce2a3abdf0890cf5cb5d9e9c35b944f0069510bb4752e4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12Ko6iSG1eUK6AXpF4K0yQbQYt5zqMER\";}'
+    'PHPSESSID' => 'sse9ok8o7nmfk5htcpsdkg4v12'
+    'XDEBUG_SESSION' => 'ECLIPSE_DBGP'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_ACCEPT' => 'application/x-ms-application, image/jpeg, application/xaml+xml, image/gif, image/pjpeg, application/x-ms-xbap, */*'
+    'HTTP_REFERER' => 'http://localhost/site/pardavimusarasas'
+    'HTTP_ACCEPT_LANGUAGE' => 'lt-LT'
+    'HTTP_UA_CPU' => 'AMD64'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; Trident/7.0; rv:11.0) like Gecko'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'HTTP_COOKIE' => '_csrf=b662ab1a3f2a6c20abce2a3abdf0890cf5cb5d9e9c35b944f0069510bb4752e4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212Ko6iSG1eUK6AXpF4K0yQbQYt5zqMER%22%3B%7D; PHPSESSID=sse9ok8o7nmfk5htcpsdkg4v12; XDEBUG_SESSION=ECLIPSE_DBGP'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Windows\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\wamp64\\bin\\php\\php5.6.25;C:\\ProgramData\\ComposerSetup\\bin;C:\\wamp64\\www\\Uzduotis\\basic;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp64/www/Uzduotis/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp64/www/Uzduotis/basic/web/'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/wamp64/www/Uzduotis/basic/web/index.php'
+    'REMOTE_PORT' => '18478'
+    'REDIRECT_URL' => '/site/pardavimusarasas'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/pardavimusarasas'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1476662429.223
+    'REQUEST_TIME' => 1476662429
+]
+2016-10-17 00:01:56 [::1][-][sse9ok8o7nmfk5htcpsdkg4v12][error][yii\base\ErrorException:128] exception 'yii\base\ErrorException' with message 'Unterminated comment starting line 5' in C:\wamp64\www\Uzduotis\basic\views\site\pardavimusarasas.php:5
+Stack trace:
+#0 {main}
+2016-10-17 00:01:52 [::1][-][sse9ok8o7nmfk5htcpsdkg4v12][info][application] $_COOKIE = [
+    '_csrf' => 'b662ab1a3f2a6c20abce2a3abdf0890cf5cb5d9e9c35b944f0069510bb4752e4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12Ko6iSG1eUK6AXpF4K0yQbQYt5zqMER\";}'
+    'PHPSESSID' => 'sse9ok8o7nmfk5htcpsdkg4v12'
+    'XDEBUG_SESSION' => 'ECLIPSE_DBGP'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_ACCEPT' => 'application/x-ms-application, image/jpeg, application/xaml+xml, image/gif, image/pjpeg, application/x-ms-xbap, */*'
+    'HTTP_REFERER' => 'http://localhost/debug/default/view?panel=log&tag=5804149d45d5f'
+    'HTTP_ACCEPT_LANGUAGE' => 'lt-LT'
+    'HTTP_UA_CPU' => 'AMD64'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; Trident/7.0; rv:11.0) like Gecko'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'HTTP_COOKIE' => '_csrf=b662ab1a3f2a6c20abce2a3abdf0890cf5cb5d9e9c35b944f0069510bb4752e4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212Ko6iSG1eUK6AXpF4K0yQbQYt5zqMER%22%3B%7D; PHPSESSID=sse9ok8o7nmfk5htcpsdkg4v12; XDEBUG_SESSION=ECLIPSE_DBGP'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Windows\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\wamp64\\bin\\php\\php5.6.25;C:\\ProgramData\\ComposerSetup\\bin;C:\\wamp64\\www\\Uzduotis\\basic;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp64/www/Uzduotis/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp64/www/Uzduotis/basic/web/'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/wamp64/www/Uzduotis/basic/web/index.php'
+    'REMOTE_PORT' => '18501'
+    'REDIRECT_URL' => '/site/pardavimusarasas'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/pardavimusarasas'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1476662512.072
+    'REQUEST_TIME' => 1476662512
+]
+2016-10-17 00:03:38 [::1][-][sse9ok8o7nmfk5htcpsdkg4v12][error][yii\base\ErrorException:128] exception 'yii\base\ErrorException' with message 'Unterminated comment starting line 5' in C:\wamp64\www\Uzduotis\basic\views\site\pardavimusarasas.php:5
+Stack trace:
+#0 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Application.php(381): yii\web\Response->send()
+#1 C:\wamp64\www\Uzduotis\basic\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-10-17 00:02:38 [::1][-][sse9ok8o7nmfk5htcpsdkg4v12][info][application] $_COOKIE = [
+    '_csrf' => 'b662ab1a3f2a6c20abce2a3abdf0890cf5cb5d9e9c35b944f0069510bb4752e4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12Ko6iSG1eUK6AXpF4K0yQbQYt5zqMER\";}'
+    'PHPSESSID' => 'sse9ok8o7nmfk5htcpsdkg4v12'
+    'XDEBUG_SESSION' => 'ECLIPSE_DBGP'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_ACCEPT' => 'application/x-ms-application, image/jpeg, application/xaml+xml, image/gif, image/pjpeg, application/x-ms-xbap, */*'
+    'HTTP_REFERER' => 'http://localhost/site/pardavimusarasas'
+    'HTTP_ACCEPT_LANGUAGE' => 'lt-LT'
+    'HTTP_UA_CPU' => 'AMD64'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; Trident/7.0; rv:11.0) like Gecko'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'HTTP_COOKIE' => '_csrf=b662ab1a3f2a6c20abce2a3abdf0890cf5cb5d9e9c35b944f0069510bb4752e4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212Ko6iSG1eUK6AXpF4K0yQbQYt5zqMER%22%3B%7D; PHPSESSID=sse9ok8o7nmfk5htcpsdkg4v12; XDEBUG_SESSION=ECLIPSE_DBGP'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Windows\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\wamp64\\bin\\php\\php5.6.25;C:\\ProgramData\\ComposerSetup\\bin;C:\\wamp64\\www\\Uzduotis\\basic;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp64/www/Uzduotis/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp64/www/Uzduotis/basic/web/'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/wamp64/www/Uzduotis/basic/web/index.php'
+    'REMOTE_PORT' => '18519'
+    'REDIRECT_URL' => '/site/pardavimusarasas'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/pardavimusarasas'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1476662558.59
+    'REQUEST_TIME' => 1476662558
+]
+2016-10-17 00:03:39 [::1][-][sse9ok8o7nmfk5htcpsdkg4v12][error][yii\base\ErrorException:128] exception 'yii\base\ErrorException' with message 'Unterminated comment starting line 5' in C:\wamp64\www\Uzduotis\basic\views\site\pardavimusarasas.php:5
+Stack trace:
+#0 {main}
+2016-10-17 00:03:33 [::1][-][sse9ok8o7nmfk5htcpsdkg4v12][info][application] $_COOKIE = [
+    '_csrf' => 'b662ab1a3f2a6c20abce2a3abdf0890cf5cb5d9e9c35b944f0069510bb4752e4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12Ko6iSG1eUK6AXpF4K0yQbQYt5zqMER\";}'
+    'PHPSESSID' => 'sse9ok8o7nmfk5htcpsdkg4v12'
+    'XDEBUG_SESSION' => 'ECLIPSE_DBGP'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_ACCEPT' => 'application/x-ms-application, image/jpeg, application/xaml+xml, image/gif, image/pjpeg, application/x-ms-xbap, */*'
+    'HTTP_REFERER' => 'http://localhost/site/pardavimai'
+    'HTTP_ACCEPT_LANGUAGE' => 'lt-LT'
+    'HTTP_UA_CPU' => 'AMD64'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; Trident/7.0; rv:11.0) like Gecko'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'HTTP_COOKIE' => '_csrf=b662ab1a3f2a6c20abce2a3abdf0890cf5cb5d9e9c35b944f0069510bb4752e4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212Ko6iSG1eUK6AXpF4K0yQbQYt5zqMER%22%3B%7D; PHPSESSID=sse9ok8o7nmfk5htcpsdkg4v12; XDEBUG_SESSION=ECLIPSE_DBGP'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Windows\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\wamp64\\bin\\php\\php5.6.25;C:\\ProgramData\\ComposerSetup\\bin;C:\\wamp64\\www\\Uzduotis\\basic;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp64/www/Uzduotis/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp64/www/Uzduotis/basic/web/'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/wamp64/www/Uzduotis/basic/web/index.php'
+    'REMOTE_PORT' => '18540'
+    'REDIRECT_URL' => '/site/pardavimusarasas'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/pardavimusarasas'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1476662613.571
+    'REQUEST_TIME' => 1476662613
+]
+2016-10-17 00:08:10 [::1][-][sse9ok8o7nmfk5htcpsdkg4v12][error][yii\base\ErrorException:128] exception 'yii\base\ErrorException' with message 'Unterminated comment starting line 5' in C:\wamp64\www\Uzduotis\basic\views\site\pardavimusarasas.php:5
+Stack trace:
+#0 {main}
+2016-10-17 00:07:36 [::1][-][sse9ok8o7nmfk5htcpsdkg4v12][info][application] $_COOKIE = [
+    '_csrf' => 'b662ab1a3f2a6c20abce2a3abdf0890cf5cb5d9e9c35b944f0069510bb4752e4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12Ko6iSG1eUK6AXpF4K0yQbQYt5zqMER\";}'
+    'PHPSESSID' => 'sse9ok8o7nmfk5htcpsdkg4v12'
+    'XDEBUG_SESSION' => 'ECLIPSE_DBGP'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_ACCEPT' => 'application/x-ms-application, image/jpeg, application/xaml+xml, image/gif, image/pjpeg, application/x-ms-xbap, */*'
+    'HTTP_REFERER' => 'http://localhost/site/pardavimai'
+    'HTTP_ACCEPT_LANGUAGE' => 'lt-LT'
+    'HTTP_UA_CPU' => 'AMD64'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; Trident/7.0; rv:11.0) like Gecko'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'HTTP_COOKIE' => '_csrf=b662ab1a3f2a6c20abce2a3abdf0890cf5cb5d9e9c35b944f0069510bb4752e4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212Ko6iSG1eUK6AXpF4K0yQbQYt5zqMER%22%3B%7D; PHPSESSID=sse9ok8o7nmfk5htcpsdkg4v12; XDEBUG_SESSION=ECLIPSE_DBGP'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Windows\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\wamp64\\bin\\php\\php5.6.25;C:\\ProgramData\\ComposerSetup\\bin;C:\\wamp64\\www\\Uzduotis\\basic;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp64/www/Uzduotis/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp64/www/Uzduotis/basic/web/'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/wamp64/www/Uzduotis/basic/web/index.php'
+    'REMOTE_PORT' => '18618'
+    'REDIRECT_URL' => '/site/pardavimusarasas'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/pardavimusarasas'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1476662856.24
+    'REQUEST_TIME' => 1476662856
+]
+2016-10-17 00:19:25 [::1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'kategorijos.pavadinimas' in 'field list'' in C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\db\Command.php:900
+Stack trace:
+#0 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\db\Command.php(900): PDOStatement->execute()
+#1 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 C:\wamp64\www\Uzduotis\basic\controllers\SiteController.php(188): yii\db\Command->queryAll()
+#3 [internal function]: app\controllers\SiteController->actionPardavimusarasas()
+#4 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#5 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[]')
+#6 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[]')
+#7 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('<span class="st...', '[]')
+#8 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\wamp64\www\Uzduotis\basic\web\index.php(12): yii\base\Application->run()
+#10 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'kategorijos.pavadinimas' in 'field list'
+The SQL being executed was: SELECT pirkejoVardas, kategorijos.pavadinimas, preke.pavadinimas, pirkejoPavarde, pirkejoTelefonoNumeris, pirkejoElPastas, kaina, arApmoketa, komentarai, pardavimoKodas FROM pardavimai ' in C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\db\Schema.php:633
+Stack trace:
+#0 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\db\Command.php(915): yii\db\Schema->convertException(Object(PDOException), 'SELECT pirkejoV...')
+#1 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 C:\wamp64\www\Uzduotis\basic\controllers\SiteController.php(188): yii\db\Command->queryAll()
+#3 [internal function]: app\controllers\SiteController->actionPardavimusarasas()
+#4 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#5 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[]')
+#6 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[]')
+#7 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('<span class="st...', '[]')
+#8 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\wamp64\www\Uzduotis\basic\web\index.php(12): yii\base\Application->run()
+#10 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'kategorijos.pavadinimas' in 'field list'
+)
+
+2016-10-17 00:19:24 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'b662ab1a3f2a6c20abce2a3abdf0890cf5cb5d9e9c35b944f0069510bb4752e4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12Ko6iSG1eUK6AXpF4K0yQbQYt5zqMER\";}'
+    'PHPSESSID' => 'sse9ok8o7nmfk5htcpsdkg4v12'
+    'XDEBUG_SESSION' => 'ECLIPSE_DBGP'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_ACCEPT' => 'application/x-ms-application, image/jpeg, application/xaml+xml, image/gif, image/pjpeg, application/x-ms-xbap, */*'
+    'HTTP_REFERER' => 'http://localhost/site/pardavimai'
+    'HTTP_ACCEPT_LANGUAGE' => 'lt-LT'
+    'HTTP_UA_CPU' => 'AMD64'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; Trident/7.0; rv:11.0) like Gecko'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'HTTP_COOKIE' => '_csrf=b662ab1a3f2a6c20abce2a3abdf0890cf5cb5d9e9c35b944f0069510bb4752e4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212Ko6iSG1eUK6AXpF4K0yQbQYt5zqMER%22%3B%7D; PHPSESSID=sse9ok8o7nmfk5htcpsdkg4v12; XDEBUG_SESSION=ECLIPSE_DBGP'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Windows\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\wamp64\\bin\\php\\php5.6.25;C:\\ProgramData\\ComposerSetup\\bin;C:\\wamp64\\www\\Uzduotis\\basic;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp64/www/Uzduotis/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp64/www/Uzduotis/basic/web/'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/wamp64/www/Uzduotis/basic/web/index.php'
+    'REMOTE_PORT' => '18875'
+    'REDIRECT_URL' => '/site/pardavimusarasas'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/pardavimusarasas'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1476663564.846
+    'REQUEST_TIME' => 1476663564
+]
+2016-10-17 00:20:06 [::1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') INNER JOIN kategorijos ON ()' at line 1' in C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\db\Command.php:900
+Stack trace:
+#0 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\db\Command.php(900): PDOStatement->execute()
+#1 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 C:\wamp64\www\Uzduotis\basic\controllers\SiteController.php(190): yii\db\Command->queryAll()
+#3 [internal function]: app\controllers\SiteController->actionPardavimusarasas()
+#4 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#5 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[]')
+#6 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[]')
+#7 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('<span class="st...', '[]')
+#8 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\wamp64\www\Uzduotis\basic\web\index.php(12): yii\base\Application->run()
+#10 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') INNER JOIN kategorijos ON ()' at line 1
+The SQL being executed was: SELECT pirkejoVardas, kategorijos.pavadinimas, preke.pavadinimas, pirkejoPavarde, pirkejoTelefonoNumeris, pirkejoElPastas, kaina, arApmoketa, komentarai, pardavimoKodas FROM pardavimai INNER JOIN preke ON () INNER JOIN kategorijos ON ()' in C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\db\Schema.php:633
+Stack trace:
+#0 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\db\Command.php(915): yii\db\Schema->convertException(Object(PDOException), 'SELECT pirkejoV...')
+#1 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 C:\wamp64\www\Uzduotis\basic\controllers\SiteController.php(190): yii\db\Command->queryAll()
+#3 [internal function]: app\controllers\SiteController->actionPardavimusarasas()
+#4 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#5 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[]')
+#6 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[]')
+#7 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('<span class="st...', '[]')
+#8 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\wamp64\www\Uzduotis\basic\web\index.php(12): yii\base\Application->run()
+#10 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') INNER JOIN kategorijos ON ()' at line 1
+)
+
+2016-10-17 00:20:06 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'b662ab1a3f2a6c20abce2a3abdf0890cf5cb5d9e9c35b944f0069510bb4752e4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12Ko6iSG1eUK6AXpF4K0yQbQYt5zqMER\";}'
+    'PHPSESSID' => 'sse9ok8o7nmfk5htcpsdkg4v12'
+    'XDEBUG_SESSION' => 'ECLIPSE_DBGP'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_ACCEPT' => 'application/x-ms-application, image/jpeg, application/xaml+xml, image/gif, image/pjpeg, application/x-ms-xbap, */*'
+    'HTTP_REFERER' => 'http://localhost/site/pardavimai'
+    'HTTP_ACCEPT_LANGUAGE' => 'lt-LT'
+    'HTTP_UA_CPU' => 'AMD64'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; Trident/7.0; rv:11.0) like Gecko'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'HTTP_COOKIE' => '_csrf=b662ab1a3f2a6c20abce2a3abdf0890cf5cb5d9e9c35b944f0069510bb4752e4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212Ko6iSG1eUK6AXpF4K0yQbQYt5zqMER%22%3B%7D; PHPSESSID=sse9ok8o7nmfk5htcpsdkg4v12; XDEBUG_SESSION=ECLIPSE_DBGP'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Windows\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\wamp64\\bin\\php\\php5.6.25;C:\\ProgramData\\ComposerSetup\\bin;C:\\wamp64\\www\\Uzduotis\\basic;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp64/www/Uzduotis/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp64/www/Uzduotis/basic/web/'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/wamp64/www/Uzduotis/basic/web/index.php'
+    'REMOTE_PORT' => '18888'
+    'REDIRECT_URL' => '/site/pardavimusarasas'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/pardavimusarasas'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1476663606.579
+    'REQUEST_TIME' => 1476663606
+]
+2016-10-17 00:20:16 [::1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') INNER JOIN kategorijos ON ()' at line 1' in C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\db\Command.php:900
+Stack trace:
+#0 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\db\Command.php(900): PDOStatement->execute()
+#1 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 C:\wamp64\www\Uzduotis\basic\controllers\SiteController.php(190): yii\db\Command->queryAll()
+#3 [internal function]: app\controllers\SiteController->actionPardavimusarasas()
+#4 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#5 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[]')
+#6 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[]')
+#7 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('<span class="st...', '[]')
+#8 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\wamp64\www\Uzduotis\basic\web\index.php(12): yii\base\Application->run()
+#10 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') INNER JOIN kategorijos ON ()' at line 1
+The SQL being executed was: SELECT pirkejoVardas, kategorijos.pavadinimas, preke.pavadinimas, pirkejoPavarde, pirkejoTelefonoNumeris, pirkejoElPastas, kaina, arApmoketa, komentarai, pardavimoKodas FROM pardavimai INNER JOIN preke ON () INNER JOIN kategorijos ON ()' in C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\db\Schema.php:633
+Stack trace:
+#0 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\db\Command.php(915): yii\db\Schema->convertException(Object(PDOException), 'SELECT pirkejoV...')
+#1 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 C:\wamp64\www\Uzduotis\basic\controllers\SiteController.php(190): yii\db\Command->queryAll()
+#3 [internal function]: app\controllers\SiteController->actionPardavimusarasas()
+#4 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#5 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[]')
+#6 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[]')
+#7 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('<span class="st...', '[]')
+#8 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\wamp64\www\Uzduotis\basic\web\index.php(12): yii\base\Application->run()
+#10 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') INNER JOIN kategorijos ON ()' at line 1
+)
+
+2016-10-17 00:20:15 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'b662ab1a3f2a6c20abce2a3abdf0890cf5cb5d9e9c35b944f0069510bb4752e4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12Ko6iSG1eUK6AXpF4K0yQbQYt5zqMER\";}'
+    'PHPSESSID' => 'sse9ok8o7nmfk5htcpsdkg4v12'
+    'XDEBUG_SESSION' => 'ECLIPSE_DBGP'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_ACCEPT' => 'application/x-ms-application, image/jpeg, application/xaml+xml, image/gif, image/pjpeg, application/x-ms-xbap, */*'
+    'HTTP_REFERER' => 'http://localhost/site/pardavimai'
+    'HTTP_ACCEPT_LANGUAGE' => 'lt-LT'
+    'HTTP_UA_CPU' => 'AMD64'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; Trident/7.0; rv:11.0) like Gecko'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'HTTP_COOKIE' => '_csrf=b662ab1a3f2a6c20abce2a3abdf0890cf5cb5d9e9c35b944f0069510bb4752e4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212Ko6iSG1eUK6AXpF4K0yQbQYt5zqMER%22%3B%7D; PHPSESSID=sse9ok8o7nmfk5htcpsdkg4v12; XDEBUG_SESSION=ECLIPSE_DBGP'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Windows\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\wamp64\\bin\\php\\php5.6.25;C:\\ProgramData\\ComposerSetup\\bin;C:\\wamp64\\www\\Uzduotis\\basic;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp64/www/Uzduotis/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp64/www/Uzduotis/basic/web/'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/wamp64/www/Uzduotis/basic/web/index.php'
+    'REMOTE_PORT' => '18896'
+    'REDIRECT_URL' => '/site/pardavimusarasas'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/pardavimusarasas'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1476663615.799
+    'REQUEST_TIME' => 1476663615
+]
+2016-10-17 00:20:46 [::1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'kategorijos' in 'on clause'' in C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\db\Command.php:900
+Stack trace:
+#0 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\db\Command.php(900): PDOStatement->execute()
+#1 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 C:\wamp64\www\Uzduotis\basic\controllers\SiteController.php(190): yii\db\Command->queryAll()
+#3 [internal function]: app\controllers\SiteController->actionPardavimusarasas()
+#4 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#5 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[]')
+#6 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[]')
+#7 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('<span class="st...', '[]')
+#8 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\wamp64\www\Uzduotis\basic\web\index.php(12): yii\base\Application->run()
+#10 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'kategorijos' in 'on clause'
+The SQL being executed was: SELECT pirkejoVardas, kategorijos.pavadinimas, preke.pavadinimas, pirkejoPavarde, pirkejoTelefonoNumeris, pirkejoElPastas, kaina, arApmoketa, komentarai, pardavimoKodas FROM pardavimai INNER JOIN preke ON (preke = preke) INNER JOIN kategorijos ON (preke = kategorijos)' in C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\db\Schema.php:633
+Stack trace:
+#0 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\db\Command.php(915): yii\db\Schema->convertException(Object(PDOException), 'SELECT pirkejoV...')
+#1 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 C:\wamp64\www\Uzduotis\basic\controllers\SiteController.php(190): yii\db\Command->queryAll()
+#3 [internal function]: app\controllers\SiteController->actionPardavimusarasas()
+#4 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#5 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[]')
+#6 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[]')
+#7 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('<span class="st...', '[]')
+#8 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\wamp64\www\Uzduotis\basic\web\index.php(12): yii\base\Application->run()
+#10 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'kategorijos' in 'on clause'
+)
+
+2016-10-17 00:20:46 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'b662ab1a3f2a6c20abce2a3abdf0890cf5cb5d9e9c35b944f0069510bb4752e4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12Ko6iSG1eUK6AXpF4K0yQbQYt5zqMER\";}'
+    'PHPSESSID' => 'sse9ok8o7nmfk5htcpsdkg4v12'
+    'XDEBUG_SESSION' => 'ECLIPSE_DBGP'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_ACCEPT' => 'application/x-ms-application, image/jpeg, application/xaml+xml, image/gif, image/pjpeg, application/x-ms-xbap, */*'
+    'HTTP_REFERER' => 'http://localhost/site/pardavimai'
+    'HTTP_ACCEPT_LANGUAGE' => 'lt-LT'
+    'HTTP_UA_CPU' => 'AMD64'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; Trident/7.0; rv:11.0) like Gecko'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'HTTP_COOKIE' => '_csrf=b662ab1a3f2a6c20abce2a3abdf0890cf5cb5d9e9c35b944f0069510bb4752e4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212Ko6iSG1eUK6AXpF4K0yQbQYt5zqMER%22%3B%7D; PHPSESSID=sse9ok8o7nmfk5htcpsdkg4v12; XDEBUG_SESSION=ECLIPSE_DBGP'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Windows\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\wamp64\\bin\\php\\php5.6.25;C:\\ProgramData\\ComposerSetup\\bin;C:\\wamp64\\www\\Uzduotis\\basic;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp64/www/Uzduotis/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp64/www/Uzduotis/basic/web/'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/wamp64/www/Uzduotis/basic/web/index.php'
+    'REMOTE_PORT' => '18907'
+    'REDIRECT_URL' => '/site/pardavimusarasas'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/pardavimusarasas'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1476663646.743
+    'REQUEST_TIME' => 1476663646
+]
+2016-10-17 00:21:22 [::1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'kategorijos' in 'on clause'' in C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\db\Command.php:900
+Stack trace:
+#0 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\db\Command.php(900): PDOStatement->execute()
+#1 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 C:\wamp64\www\Uzduotis\basic\controllers\SiteController.php(190): yii\db\Command->queryAll()
+#3 [internal function]: app\controllers\SiteController->actionPardavimusarasas()
+#4 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#5 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[]')
+#6 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[]')
+#7 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('<span class="st...', '[]')
+#8 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\wamp64\www\Uzduotis\basic\web\index.php(12): yii\base\Application->run()
+#10 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'kategorijos' in 'on clause'
+The SQL being executed was: SELECT pirkejoVardas, kategorijos.pavadinimas, preke.pavadinimas, pirkejoPavarde, pirkejoTelefonoNumeris, pirkejoElPastas, kaina, arApmoketa, komentarai, pardavimoKodas FROM pardavimai INNER JOIN preke ON (preke = kategorijos) INNER JOIN kategorijos ON (preke = kategorijos)' in C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\db\Schema.php:633
+Stack trace:
+#0 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\db\Command.php(915): yii\db\Schema->convertException(Object(PDOException), 'SELECT pirkejoV...')
+#1 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 C:\wamp64\www\Uzduotis\basic\controllers\SiteController.php(190): yii\db\Command->queryAll()
+#3 [internal function]: app\controllers\SiteController->actionPardavimusarasas()
+#4 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#5 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[]')
+#6 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[]')
+#7 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('<span class="st...', '[]')
+#8 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\wamp64\www\Uzduotis\basic\web\index.php(12): yii\base\Application->run()
+#10 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'kategorijos' in 'on clause'
+)
+
+2016-10-17 00:21:22 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'b662ab1a3f2a6c20abce2a3abdf0890cf5cb5d9e9c35b944f0069510bb4752e4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12Ko6iSG1eUK6AXpF4K0yQbQYt5zqMER\";}'
+    'PHPSESSID' => 'sse9ok8o7nmfk5htcpsdkg4v12'
+    'XDEBUG_SESSION' => 'ECLIPSE_DBGP'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_ACCEPT' => 'application/x-ms-application, image/jpeg, application/xaml+xml, image/gif, image/pjpeg, application/x-ms-xbap, */*'
+    'HTTP_REFERER' => 'http://localhost/site/pardavimai'
+    'HTTP_ACCEPT_LANGUAGE' => 'lt-LT'
+    'HTTP_UA_CPU' => 'AMD64'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; Trident/7.0; rv:11.0) like Gecko'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'HTTP_COOKIE' => '_csrf=b662ab1a3f2a6c20abce2a3abdf0890cf5cb5d9e9c35b944f0069510bb4752e4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212Ko6iSG1eUK6AXpF4K0yQbQYt5zqMER%22%3B%7D; PHPSESSID=sse9ok8o7nmfk5htcpsdkg4v12; XDEBUG_SESSION=ECLIPSE_DBGP'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Windows\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\wamp64\\bin\\php\\php5.6.25;C:\\ProgramData\\ComposerSetup\\bin;C:\\wamp64\\www\\Uzduotis\\basic;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp64/www/Uzduotis/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp64/www/Uzduotis/basic/web/'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/wamp64/www/Uzduotis/basic/web/index.php'
+    'REMOTE_PORT' => '18918'
+    'REDIRECT_URL' => '/site/pardavimusarasas'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/pardavimusarasas'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1476663682.107
+    'REQUEST_TIME' => 1476663682
+]
+2016-10-17 00:22:04 [::1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'kategorijos.pavadinimas' in 'field list'' in C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\db\Command.php:900
+Stack trace:
+#0 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\db\Command.php(900): PDOStatement->execute()
+#1 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 C:\wamp64\www\Uzduotis\basic\controllers\SiteController.php(189): yii\db\Command->queryAll()
+#3 [internal function]: app\controllers\SiteController->actionPardavimusarasas()
+#4 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#5 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[]')
+#6 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[]')
+#7 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('<span class="st...', '[]')
+#8 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\wamp64\www\Uzduotis\basic\web\index.php(12): yii\base\Application->run()
+#10 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'kategorijos.pavadinimas' in 'field list'
+The SQL being executed was: SELECT pirkejoVardas, kategorijos.pavadinimas, preke.pavadinimas, pirkejoPavarde, pirkejoTelefonoNumeris, pirkejoElPastas, kaina, arApmoketa, komentarai, pardavimoKodas FROM pardavimai INNER JOIN preke ON (preke = kategorijos) ' in C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\db\Schema.php:633
+Stack trace:
+#0 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\db\Command.php(915): yii\db\Schema->convertException(Object(PDOException), 'SELECT pirkejoV...')
+#1 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 C:\wamp64\www\Uzduotis\basic\controllers\SiteController.php(189): yii\db\Command->queryAll()
+#3 [internal function]: app\controllers\SiteController->actionPardavimusarasas()
+#4 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#5 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[]')
+#6 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[]')
+#7 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('<span class="st...', '[]')
+#8 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\wamp64\www\Uzduotis\basic\web\index.php(12): yii\base\Application->run()
+#10 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'kategorijos.pavadinimas' in 'field list'
+)
+
+2016-10-17 00:22:04 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'b662ab1a3f2a6c20abce2a3abdf0890cf5cb5d9e9c35b944f0069510bb4752e4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12Ko6iSG1eUK6AXpF4K0yQbQYt5zqMER\";}'
+    'PHPSESSID' => 'sse9ok8o7nmfk5htcpsdkg4v12'
+    'XDEBUG_SESSION' => 'ECLIPSE_DBGP'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_ACCEPT' => 'application/x-ms-application, image/jpeg, application/xaml+xml, image/gif, image/pjpeg, application/x-ms-xbap, */*'
+    'HTTP_REFERER' => 'http://localhost/site/pardavimai'
+    'HTTP_ACCEPT_LANGUAGE' => 'lt-LT'
+    'HTTP_UA_CPU' => 'AMD64'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; Trident/7.0; rv:11.0) like Gecko'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'HTTP_COOKIE' => '_csrf=b662ab1a3f2a6c20abce2a3abdf0890cf5cb5d9e9c35b944f0069510bb4752e4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212Ko6iSG1eUK6AXpF4K0yQbQYt5zqMER%22%3B%7D; PHPSESSID=sse9ok8o7nmfk5htcpsdkg4v12; XDEBUG_SESSION=ECLIPSE_DBGP'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Windows\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\wamp64\\bin\\php\\php5.6.25;C:\\ProgramData\\ComposerSetup\\bin;C:\\wamp64\\www\\Uzduotis\\basic;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp64/www/Uzduotis/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp64/www/Uzduotis/basic/web/'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/wamp64/www/Uzduotis/basic/web/index.php'
+    'REMOTE_PORT' => '18929'
+    'REDIRECT_URL' => '/site/pardavimusarasas'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/pardavimusarasas'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1476663724.566
+    'REQUEST_TIME' => 1476663724
+]
+2016-10-17 00:22:19 [::1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'kategorijos' in 'on clause'' in C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\db\Command.php:900
+Stack trace:
+#0 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\db\Command.php(900): PDOStatement->execute()
+#1 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 C:\wamp64\www\Uzduotis\basic\controllers\SiteController.php(189): yii\db\Command->queryAll()
+#3 [internal function]: app\controllers\SiteController->actionPardavimusarasas()
+#4 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#5 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[]')
+#6 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[]')
+#7 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('<span class="st...', '[]')
+#8 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\wamp64\www\Uzduotis\basic\web\index.php(12): yii\base\Application->run()
+#10 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'kategorijos' in 'on clause'
+The SQL being executed was: SELECT pirkejoVardas, preke.pavadinimas, pirkejoPavarde, pirkejoTelefonoNumeris, pirkejoElPastas, kaina, arApmoketa, komentarai, pardavimoKodas FROM pardavimai INNER JOIN preke ON (preke = kategorijos) ' in C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\db\Schema.php:633
+Stack trace:
+#0 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\db\Command.php(915): yii\db\Schema->convertException(Object(PDOException), 'SELECT pirkejoV...')
+#1 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 C:\wamp64\www\Uzduotis\basic\controllers\SiteController.php(189): yii\db\Command->queryAll()
+#3 [internal function]: app\controllers\SiteController->actionPardavimusarasas()
+#4 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#5 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[]')
+#6 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[]')
+#7 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('<span class="st...', '[]')
+#8 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\wamp64\www\Uzduotis\basic\web\index.php(12): yii\base\Application->run()
+#10 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'kategorijos' in 'on clause'
+)
+
+2016-10-17 00:22:18 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'b662ab1a3f2a6c20abce2a3abdf0890cf5cb5d9e9c35b944f0069510bb4752e4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12Ko6iSG1eUK6AXpF4K0yQbQYt5zqMER\";}'
+    'PHPSESSID' => 'sse9ok8o7nmfk5htcpsdkg4v12'
+    'XDEBUG_SESSION' => 'ECLIPSE_DBGP'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_ACCEPT' => 'application/x-ms-application, image/jpeg, application/xaml+xml, image/gif, image/pjpeg, application/x-ms-xbap, */*'
+    'HTTP_REFERER' => 'http://localhost/site/pardavimai'
+    'HTTP_ACCEPT_LANGUAGE' => 'lt-LT'
+    'HTTP_UA_CPU' => 'AMD64'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; Trident/7.0; rv:11.0) like Gecko'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'HTTP_COOKIE' => '_csrf=b662ab1a3f2a6c20abce2a3abdf0890cf5cb5d9e9c35b944f0069510bb4752e4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212Ko6iSG1eUK6AXpF4K0yQbQYt5zqMER%22%3B%7D; PHPSESSID=sse9ok8o7nmfk5htcpsdkg4v12; XDEBUG_SESSION=ECLIPSE_DBGP'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Windows\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\wamp64\\bin\\php\\php5.6.25;C:\\ProgramData\\ComposerSetup\\bin;C:\\wamp64\\www\\Uzduotis\\basic;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp64/www/Uzduotis/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp64/www/Uzduotis/basic/web/'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/wamp64/www/Uzduotis/basic/web/index.php'
+    'REMOTE_PORT' => '18938'
+    'REDIRECT_URL' => '/site/pardavimusarasas'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/pardavimusarasas'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1476663738.812
+    'REQUEST_TIME' => 1476663738
+]
+2016-10-17 00:23:14 [::1][-][sse9ok8o7nmfk5htcpsdkg4v12][error][yii\base\ErrorException:128] exception 'yii\base\ErrorException' with message 'Unterminated comment starting line 5' in C:\wamp64\www\Uzduotis\basic\views\site\pardavimusarasas.php:5
+Stack trace:
+#0 {main}
+2016-10-17 00:23:09 [::1][-][sse9ok8o7nmfk5htcpsdkg4v12][info][application] $_COOKIE = [
+    '_csrf' => 'b662ab1a3f2a6c20abce2a3abdf0890cf5cb5d9e9c35b944f0069510bb4752e4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12Ko6iSG1eUK6AXpF4K0yQbQYt5zqMER\";}'
+    'PHPSESSID' => 'sse9ok8o7nmfk5htcpsdkg4v12'
+    'XDEBUG_SESSION' => 'ECLIPSE_DBGP'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_ACCEPT' => 'application/x-ms-application, image/jpeg, application/xaml+xml, image/gif, image/pjpeg, application/x-ms-xbap, */*'
+    'HTTP_REFERER' => 'http://localhost/site/pardavimai'
+    'HTTP_ACCEPT_LANGUAGE' => 'lt-LT'
+    'HTTP_UA_CPU' => 'AMD64'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; Trident/7.0; rv:11.0) like Gecko'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'HTTP_COOKIE' => '_csrf=b662ab1a3f2a6c20abce2a3abdf0890cf5cb5d9e9c35b944f0069510bb4752e4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212Ko6iSG1eUK6AXpF4K0yQbQYt5zqMER%22%3B%7D; PHPSESSID=sse9ok8o7nmfk5htcpsdkg4v12; XDEBUG_SESSION=ECLIPSE_DBGP'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Windows\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\wamp64\\bin\\php\\php5.6.25;C:\\ProgramData\\ComposerSetup\\bin;C:\\wamp64\\www\\Uzduotis\\basic;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp64/www/Uzduotis/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp64/www/Uzduotis/basic/web/'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/wamp64/www/Uzduotis/basic/web/index.php'
+    'REMOTE_PORT' => '18952'
+    'REDIRECT_URL' => '/site/pardavimusarasas'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/pardavimusarasas'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1476663789.336
+    'REQUEST_TIME' => 1476663789
+]
+2016-10-17 00:24:07 [::1][-][sse9ok8o7nmfk5htcpsdkg4v12][error][yii\base\ErrorException:128] exception 'yii\base\ErrorException' with message 'Unterminated comment starting line 5' in C:\wamp64\www\Uzduotis\basic\views\site\pardavimusarasas.php:5
+Stack trace:
+#0 {main}
+2016-10-17 00:24:04 [::1][-][sse9ok8o7nmfk5htcpsdkg4v12][info][application] $_COOKIE = [
+    '_csrf' => 'b662ab1a3f2a6c20abce2a3abdf0890cf5cb5d9e9c35b944f0069510bb4752e4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12Ko6iSG1eUK6AXpF4K0yQbQYt5zqMER\";}'
+    'PHPSESSID' => 'sse9ok8o7nmfk5htcpsdkg4v12'
+    'XDEBUG_SESSION' => 'ECLIPSE_DBGP'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_ACCEPT' => 'application/x-ms-application, image/jpeg, application/xaml+xml, image/gif, image/pjpeg, application/x-ms-xbap, */*'
+    'HTTP_REFERER' => 'http://localhost/site/pardavimai'
+    'HTTP_ACCEPT_LANGUAGE' => 'lt-LT'
+    'HTTP_UA_CPU' => 'AMD64'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; Trident/7.0; rv:11.0) like Gecko'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'HTTP_COOKIE' => '_csrf=b662ab1a3f2a6c20abce2a3abdf0890cf5cb5d9e9c35b944f0069510bb4752e4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212Ko6iSG1eUK6AXpF4K0yQbQYt5zqMER%22%3B%7D; PHPSESSID=sse9ok8o7nmfk5htcpsdkg4v12; XDEBUG_SESSION=ECLIPSE_DBGP'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Windows\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\wamp64\\bin\\php\\php5.6.25;C:\\ProgramData\\ComposerSetup\\bin;C:\\wamp64\\www\\Uzduotis\\basic;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp64/www/Uzduotis/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp64/www/Uzduotis/basic/web/'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/wamp64/www/Uzduotis/basic/web/index.php'
+    'REMOTE_PORT' => '18973'
+    'REDIRECT_URL' => '/site/pardavimusarasas'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/pardavimusarasas'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1476663844.199
+    'REQUEST_TIME' => 1476663844
+]
+2016-10-17 00:25:11 [::1][-][sse9ok8o7nmfk5htcpsdkg4v12][error][yii\base\ErrorException:128] exception 'yii\base\ErrorException' with message 'Unterminated comment starting line 5' in C:\wamp64\www\Uzduotis\basic\views\site\pardavimusarasas.php:5
+Stack trace:
+#0 {main}
+2016-10-17 00:25:04 [::1][-][sse9ok8o7nmfk5htcpsdkg4v12][info][application] $_COOKIE = [
+    '_csrf' => 'b662ab1a3f2a6c20abce2a3abdf0890cf5cb5d9e9c35b944f0069510bb4752e4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12Ko6iSG1eUK6AXpF4K0yQbQYt5zqMER\";}'
+    'PHPSESSID' => 'sse9ok8o7nmfk5htcpsdkg4v12'
+    'XDEBUG_SESSION' => 'ECLIPSE_DBGP'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_ACCEPT' => 'application/x-ms-application, image/jpeg, application/xaml+xml, image/gif, image/pjpeg, application/x-ms-xbap, */*'
+    'HTTP_REFERER' => 'http://localhost/site/pardavimai'
+    'HTTP_ACCEPT_LANGUAGE' => 'lt-LT'
+    'HTTP_UA_CPU' => 'AMD64'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; Trident/7.0; rv:11.0) like Gecko'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'HTTP_COOKIE' => '_csrf=b662ab1a3f2a6c20abce2a3abdf0890cf5cb5d9e9c35b944f0069510bb4752e4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212Ko6iSG1eUK6AXpF4K0yQbQYt5zqMER%22%3B%7D; PHPSESSID=sse9ok8o7nmfk5htcpsdkg4v12; XDEBUG_SESSION=ECLIPSE_DBGP'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Windows\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\wamp64\\bin\\php\\php5.6.25;C:\\ProgramData\\ComposerSetup\\bin;C:\\wamp64\\www\\Uzduotis\\basic;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp64/www/Uzduotis/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp64/www/Uzduotis/basic/web/'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/wamp64/www/Uzduotis/basic/web/index.php'
+    'REMOTE_PORT' => '18990'
+    'REDIRECT_URL' => '/site/pardavimusarasas'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/pardavimusarasas'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1476663904.897
+    'REQUEST_TIME' => 1476663904
+]
+2016-10-17 00:25:53 [::1][-][sse9ok8o7nmfk5htcpsdkg4v12][error][yii\base\ErrorException:128] exception 'yii\base\ErrorException' with message 'Unterminated comment starting line 5' in C:\wamp64\www\Uzduotis\basic\views\site\pardavimusarasas.php:5
+Stack trace:
+#0 {main}
+2016-10-17 00:25:49 [::1][-][sse9ok8o7nmfk5htcpsdkg4v12][info][application] $_COOKIE = [
+    '_csrf' => 'b662ab1a3f2a6c20abce2a3abdf0890cf5cb5d9e9c35b944f0069510bb4752e4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12Ko6iSG1eUK6AXpF4K0yQbQYt5zqMER\";}'
+    'PHPSESSID' => 'sse9ok8o7nmfk5htcpsdkg4v12'
+    'XDEBUG_SESSION' => 'ECLIPSE_DBGP'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_ACCEPT' => 'application/x-ms-application, image/jpeg, application/xaml+xml, image/gif, image/pjpeg, application/x-ms-xbap, */*'
+    'HTTP_REFERER' => 'http://localhost/site/pardavimai'
+    'HTTP_ACCEPT_LANGUAGE' => 'lt-LT'
+    'HTTP_UA_CPU' => 'AMD64'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; Trident/7.0; rv:11.0) like Gecko'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'HTTP_COOKIE' => '_csrf=b662ab1a3f2a6c20abce2a3abdf0890cf5cb5d9e9c35b944f0069510bb4752e4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212Ko6iSG1eUK6AXpF4K0yQbQYt5zqMER%22%3B%7D; PHPSESSID=sse9ok8o7nmfk5htcpsdkg4v12; XDEBUG_SESSION=ECLIPSE_DBGP'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Windows\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\wamp64\\bin\\php\\php5.6.25;C:\\ProgramData\\ComposerSetup\\bin;C:\\wamp64\\www\\Uzduotis\\basic;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp64/www/Uzduotis/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp64/www/Uzduotis/basic/web/'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/wamp64/www/Uzduotis/basic/web/index.php'
+    'REMOTE_PORT' => '19003'
+    'REDIRECT_URL' => '/site/pardavimusarasas'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/pardavimusarasas'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1476663949.605
+    'REQUEST_TIME' => 1476663949
+]
+2016-10-17 00:44:09 [::1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getCount() on array' in C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\widgets\BaseListView.php:178
+Stack trace:
+#0 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\grid\GridView.php(313): yii\widgets\BaseListView->renderSection('???')
+#1 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\widgets\BaseListView.php(126): yii\grid\GridView->renderSection('???')
+#2 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\widgets\BaseListView.php(129): yii\widgets\BaseListView->yii\widgets\{closure}('???')
+#3 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\widgets\BaseListView.php(129): ::preg_replace_callback('???', '???', '???')
+#4 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\grid\GridView.php(288): yii\widgets\BaseListView->run()
+#5 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Widget.php(102): yii\grid\GridView->run()
+#6 C:\wamp64\www\Uzduotis\basic\views\site\pardavimusarasas.php(12): yii\base\Widget::widget('???')
+#7 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\View.php(325): ::unknown()
+#8 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('???', '???')
+#9 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('???', '???', '???')
+#10 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('???', '???', '???')
+#11 C:\wamp64\www\Uzduotis\basic\controllers\SiteController.php(204): yii\base\Controller->render('???', '???')
+#12 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\InlineAction.php(55): app\controllers\SiteController->actionPardavimusarasas()
+#13 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\InlineAction.php:55}('???', '???')
+#14 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('???')
+#15 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('???', '???')
+#16 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('???', '???')
+#17 C:\wamp64\www\Uzduotis\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest('???')
+#18 C:\wamp64\www\Uzduotis\basic\web\index.php(12): yii\base\Application->run()
+#19 {main}
+2016-10-17 00:44:03 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'b662ab1a3f2a6c20abce2a3abdf0890cf5cb5d9e9c35b944f0069510bb4752e4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12Ko6iSG1eUK6AXpF4K0yQbQYt5zqMER\";}'
+    'PHPSESSID' => 'sse9ok8o7nmfk5htcpsdkg4v12'
+    'XDEBUG_SESSION' => 'ECLIPSE_DBGP'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_ACCEPT' => 'application/x-ms-application, image/jpeg, application/xaml+xml, image/gif, image/pjpeg, application/x-ms-xbap, */*'
+    'HTTP_REFERER' => 'http://localhost/site/pardavimusarasas'
+    'HTTP_ACCEPT_LANGUAGE' => 'lt-LT'
+    'HTTP_UA_CPU' => 'AMD64'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; Trident/7.0; rv:11.0) like Gecko'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'HTTP_COOKIE' => '_csrf=b662ab1a3f2a6c20abce2a3abdf0890cf5cb5d9e9c35b944f0069510bb4752e4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212Ko6iSG1eUK6AXpF4K0yQbQYt5zqMER%22%3B%7D; PHPSESSID=sse9ok8o7nmfk5htcpsdkg4v12; XDEBUG_SESSION=ECLIPSE_DBGP'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Windows\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\wamp64\\bin\\php\\php5.6.25;C:\\ProgramData\\ComposerSetup\\bin;C:\\wamp64\\www\\Uzduotis\\basic;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp64/www/Uzduotis/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp64/www/Uzduotis/basic/web/'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/wamp64/www/Uzduotis/basic/web/index.php'
+    'REMOTE_PORT' => '19330'
+    'REDIRECT_URL' => '/site/pardavimusarasas'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/pardavimusarasas'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1476665043.835
+    'REQUEST_TIME' => 1476665043
+]
+2016-10-17 00:44:39 [::1][-][sse9ok8o7nmfk5htcpsdkg4v12][error][yii\base\ErrorException:128] exception 'yii\base\ErrorException' with message 'Unterminated comment starting line 6' in C:\wamp64\www\Uzduotis\basic\views\site\pardavimusarasas.php:6
+Stack trace:
+#0 {main}
+2016-10-17 00:44:33 [::1][-][sse9ok8o7nmfk5htcpsdkg4v12][info][application] $_COOKIE = [
+    '_csrf' => 'b662ab1a3f2a6c20abce2a3abdf0890cf5cb5d9e9c35b944f0069510bb4752e4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12Ko6iSG1eUK6AXpF4K0yQbQYt5zqMER\";}'
+    'PHPSESSID' => 'sse9ok8o7nmfk5htcpsdkg4v12'
+    'XDEBUG_SESSION' => 'ECLIPSE_DBGP'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_ACCEPT' => 'application/x-ms-application, image/jpeg, application/xaml+xml, image/gif, image/pjpeg, application/x-ms-xbap, */*'
+    'HTTP_REFERER' => 'http://localhost/site/pardavimusarasas'
+    'HTTP_ACCEPT_LANGUAGE' => 'lt-LT'
+    'HTTP_UA_CPU' => 'AMD64'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; Trident/7.0; rv:11.0) like Gecko'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'HTTP_COOKIE' => '_csrf=b662ab1a3f2a6c20abce2a3abdf0890cf5cb5d9e9c35b944f0069510bb4752e4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212Ko6iSG1eUK6AXpF4K0yQbQYt5zqMER%22%3B%7D; PHPSESSID=sse9ok8o7nmfk5htcpsdkg4v12; XDEBUG_SESSION=ECLIPSE_DBGP'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Windows\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\wamp64\\bin\\php\\php5.6.25;C:\\ProgramData\\ComposerSetup\\bin;C:\\wamp64\\www\\Uzduotis\\basic;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp64/www/Uzduotis/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp64/www/Uzduotis/basic/web/'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/wamp64/www/Uzduotis/basic/web/index.php'
+    'REMOTE_PORT' => '19331'
+    'REDIRECT_URL' => '/site/pardavimusarasas'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/pardavimusarasas'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1476665073.368
+    'REQUEST_TIME' => 1476665073
+]
+2016-10-17 00:48:30 [::1][-][sse9ok8o7nmfk5htcpsdkg4v12][error][yii\base\ErrorException:128] exception 'yii\base\ErrorException' with message 'Unterminated comment starting line 6' in C:\wamp64\www\Uzduotis\basic\views\site\pardavimusarasas.php:6
+Stack trace:
+#0 {main}
+2016-10-17 00:48:26 [::1][-][sse9ok8o7nmfk5htcpsdkg4v12][info][application] $_COOKIE = [
+    '_csrf' => 'b662ab1a3f2a6c20abce2a3abdf0890cf5cb5d9e9c35b944f0069510bb4752e4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12Ko6iSG1eUK6AXpF4K0yQbQYt5zqMER\";}'
+    'PHPSESSID' => 'sse9ok8o7nmfk5htcpsdkg4v12'
+    'XDEBUG_SESSION' => 'ECLIPSE_DBGP'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_ACCEPT' => 'application/x-ms-application, image/jpeg, application/xaml+xml, image/gif, image/pjpeg, application/x-ms-xbap, */*'
+    'HTTP_REFERER' => 'http://localhost/site/pardavimusarasas'
+    'HTTP_ACCEPT_LANGUAGE' => 'lt-LT'
+    'HTTP_UA_CPU' => 'AMD64'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; Trident/7.0; rv:11.0) like Gecko'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'HTTP_COOKIE' => '_csrf=b662ab1a3f2a6c20abce2a3abdf0890cf5cb5d9e9c35b944f0069510bb4752e4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212Ko6iSG1eUK6AXpF4K0yQbQYt5zqMER%22%3B%7D; PHPSESSID=sse9ok8o7nmfk5htcpsdkg4v12; XDEBUG_SESSION=ECLIPSE_DBGP'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Windows\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\wamp64\\bin\\php\\php5.6.25;C:\\ProgramData\\ComposerSetup\\bin;C:\\wamp64\\www\\Uzduotis\\basic;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp64/www/Uzduotis/basic/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp64/www/Uzduotis/basic/web/'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/wamp64/www/Uzduotis/basic/web/index.php'
+    'REMOTE_PORT' => '19446'
+    'REDIRECT_URL' => '/site/pardavimusarasas'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/pardavimusarasas'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1476665306.212
+    'REQUEST_TIME' => 1476665306
+]
